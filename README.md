@@ -32,8 +32,6 @@ During the hackathon I performed controlled experiments from an **Ubuntu Subsyst
 
 ## High-level architecture / environment
 
-> Replace the example names with your actual artifacts as needed.
-
 - Attacker host: **Ubuntu Subsystem (WSL)** on a personal laptop (used only for lab work).
 - Target host: isolated VM or container running an SSH server configured for demonstration.
 - Network: isolated virtual network (no Internet exposure for the target).
