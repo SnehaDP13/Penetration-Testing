@@ -112,8 +112,38 @@ Suggested defensive measures to reduce SSH attack surface:
 - Harden `sshd` configuration (disable root login, restrict allowed users, set idle timeouts).
 - Centralize authentication logs and integrate with alerting pipelines.
 
+
+
 ---
 
-## Repository layout (suggested)
+## How to responsibly reproduce (high-level)
+
+If you wish to reproduce this study for learning or validation, follow responsible testing principles:
+
+1. Only run experiments in isolated lab environments you control (local VMs, containers, or intentionally vulnerable images).
+2. Use snapshots and backups so you can restore state after tests.
+3. Limit scope and duration of tests; capture only the minimal evidence required.
+4. Do not expose lab systems to the public internet while testing.
+5. Share findings responsibly with owners when you identify vulnerabilities outside your lab.
+
+---
+
+## Next steps and optional deliverables I can add
+
+If you want, I can prepare any of the following **without** including offensive details:
+
+- A short slide deck summarizing the hackathon results and recommended mitigations.
+- Redacted log samples annotated to show detection signals.
+- Defensive `sshd_config` and `fail2ban` example configurations suitable for hardening (safe, non-offensive).
+- An incident-response checklist focused on authentication brute-force events.
+
+Tell me which of the above you want and I’ll prepare it in repo-ready format.
+
+---
+
+## License
+
+This project is provided for educational and defensive purposes only. Use responsibly and ethically. The author accepts no liability for misuse or unauthorized testing.
+
 
 
