@@ -16,7 +16,7 @@ Do not use any part of this repository to test systems you do not own or have wr
 
 Project summary
 
-**PROJECT_NAME** is a hackathon prototype that demonstrates how weak authentication controls and poor account hygiene can make SSH services vulnerable to automated credential-guessing at scale. The project focuses on detection, logging, and defensive recommendations — the objective is to help defenders identify suspicious activity patterns and harden systems, not to enable attacks.
+Penetration Testing is a hackathon prototype that demonstrates how weak authentication controls and poor account hygiene can make SSH services vulnerable to automated credential-guessing at scale. The project focuses on detection, logging, and defensive recommendations — the objective is to help defenders identify suspicious activity patterns and harden systems, not to enable attacks.
 
 During the hackathon I performed controlled experiments from an **Ubuntu Subsystem (WSL)** instance on my own machine and targeted only lab systems under my control. The repository contains sanitized findings, detection guidance, and hardening recommendations suitable for inclusion in a defensive playbook.
 
